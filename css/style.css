@@ -1,0 +1,101 @@
+body {
+	background-color: rgb(206, 203, 203);
+}
+
+.jumbotron {
+	text-align: left;
+	color: black;
+	font-family: Georgia;
+	background-color: #c7a7c5ad;
+	/* background-color: #d9be529d; */
+	padding: 2%;
+}
+
+p {
+	text-align: left;
+	font-family: Verdana;
+}
+
+.map {
+	border: 3px solid black;
+	margin: 10px 0 0 20px;
+}
+
+/* .counties not recognized - is this related to not being able to recolor?? */
+.counties {
+	stroke: #7A966E;
+	stroke-width: 0.5px;
+	stroke-linecap: round;
+}
+
+.chart {
+	float: right;
+	margin: 7px 20px 0 0;
+}
+
+.chartTitle {
+	font-family: Georgia;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+.chartFrame {
+	fill: none;
+	stroke: black;
+	stroke-width: 3px;
+	shape-rendering: crispEdges;
+}
+
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	stroke-width: 1px;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	font-family: verdana;
+	font-size: 0.9em;
+	fill: black;
+}
+
+.dropdown {
+	position: absolute;
+	top: 400px;
+	left: 40px;
+	z-index: 10;
+	font-family: georgia;
+	font-size: .8em;
+	background-color: #d9be529d;
+	font-weight: bold;
+	padding: 2px;
+	border: 1px solid #999;
+	box-shadow: 2px 2px 4px #999;
+}
+
+option {
+	font-weight: normal;
+}
+
+.infolabel {
+	position: absolute;
+	height: 65px;
+	min-width: 100px;
+	color: #D9BE52;
+	z-index: 11;
+    font-family: verdana;
+	background-color: rgb(75, 74, 74);
+	border: solid thin #D9BE52;
+	padding: 5px 10px;
+	top: -75px;
+}
+
+.infolabel h1 {
+	margin: 0 20px 0 0;
+	padding: 0;
+	display: inline-block;
+	line-height: 1em;
+}

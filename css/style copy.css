@@ -1,0 +1,54 @@
+
+
+
+
+
+.map {
+	border: medium solid #999;
+}
+
+.chart {
+    background-color: rgba(128,128,128,.2);
+    border: medium solid #999;
+    float: right;
+    margin: 10px 20px 0 0;
+}
+
+.chartBackground {
+	fill: rgba(128,128,128,.2);
+}
+
+/* .numbers {
+    fill: black;
+    font-family: Georgia;
+} */
+
+.chartTitle {
+    font-family: Georgia;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Why does this not work> am I using wrong variable? */
+/* .wiscoCounties {
+    stroke: #000;
+    stroke-width: .5px;
+    stroke-linecap: round;
+} */
+
+.dropdown {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 10;
+    font-family: Georgia;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+option {
+    font-weight: normal;
+}
